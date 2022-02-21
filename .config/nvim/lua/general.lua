@@ -11,6 +11,7 @@ opt.wrap = false
 opt.errorbells = false
 opt.shortmess = "I"
 opt.timeoutlen=1500
+opt.updatetime = 250
 
 opt.number = true
 

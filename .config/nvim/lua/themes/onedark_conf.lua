@@ -12,6 +12,6 @@ require('onedark').setup {
         functions = 'none',
         strings = 'none',
         variables = 'none'
-    },  
+    },
 }
 require('onedark').load()

@@ -4,9 +4,9 @@ local luasnip = require 'luasnip'
 -- nvim-cmp setup
 local cmp = require 'cmp'
 cmp.setup {
-  snippet = {
+   snippet = {
     expand = function(args)
-      require('luasnip').lsp_expand(args.body)
+      luasnip.lsp_expand(args.body)
     end,
   },
   mapping = {
@@ -44,3 +44,25 @@ cmp.setup {
     { name = 'luasnip' },
   },
 }
+
+-- autocomplete disabled by default
+cmp.setup.buffer {
+  enabled = false
+}
+
+-- Turn autocomplete on/off
+local auto = false
+
+function auto_cmp()
+  auto = not auto
+
+  if auto then
+    cmd("lua require('cmp').setup.buffer { enabled = true }")
+  else
+    cmd("lua require('cmp').setup.buffer { enabled = false }")
+  end
+
+end
+
+-- Leader + c to toggle auto_cmp
+nmap("<leader>c", ":lua auto_cmp()<CR>")

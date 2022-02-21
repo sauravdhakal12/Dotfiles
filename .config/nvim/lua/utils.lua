@@ -35,11 +35,12 @@ function auto_cmp(act)
   elseif not act then
     cmd("lua require('cmp').setup.buffer { enabled = false }")
   else
-    print("Invalid cmd")
+   print("Invalid cmd")
   end
 end
 
 
+-- Auto install packer
 local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
 if fn.empty(fn.glob(install_path)) > 0 then
   packer_bootstrap = fn.system({'git', 'clone', '--depth', '1', 'https://github.com/wbthomason/packer.nvim', install_path})
