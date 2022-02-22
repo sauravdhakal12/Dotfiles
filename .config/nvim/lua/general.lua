@@ -12,7 +12,7 @@ opt.errorbells = false
 opt.shortmess = "I"
 opt.timeoutlen=1500
 opt.updatetime = 250
-
+opt.lazyredraw = true
 opt.number = true
 
 opt.expandtab = true

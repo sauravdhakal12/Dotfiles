@@ -1,6 +1,10 @@
 --- CONFIG FOR LSP
 local nvim_lsp = require('lspconfig')
 
+-- Add additional capabilities supported by nvim-cmp
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
+
 -- Mappings
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
 nmap('<localleader>e', '<cmd>lua vim.diagnostic.open_float()<CR>')
@@ -57,6 +61,7 @@ local servers = {'pyright', 'sumneko_lua'}
 for _, lsp in pairs(servers) do
   nvim_lsp[lsp].setup {
     on_attach = on_attach,
+    capabilities = capabilities,
     flags = {
       -- This will be the default in neovim 0.7+
       debounce_text_changes = 150,
