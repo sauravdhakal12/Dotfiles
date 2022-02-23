@@ -10,7 +10,7 @@ nmap("<C-h>", ":wincmd h<CR>")
 nmap("<C-j>", ":wincmd j<CR>")
 nmap("<C-k>", ":wincmd k<CR>")
 nmap("<C-l>", ":wincmd l<CR>")
- 
+
 -- basic save
 nmap("<leader>w", ":w<CR>")
 nmap("<leader>q", ":q<CR>")
@@ -31,3 +31,5 @@ nmap("<leader>O", "O<esc>")
 -- remove search highlight
 nmap("<leader>h", ":let @/ = ''<CR>")
 
+-- enable Telescope
+nmap(";f", ":Telescope find_files<CR>")
