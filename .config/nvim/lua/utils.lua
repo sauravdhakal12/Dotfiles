@@ -37,6 +37,10 @@ function auto_cmp(act)
   end
 end
 
+-- Path to python executable
+vim.cmd([[
+  let g:python3_host_prog = expand('/usr/bin/python3')
+]])
 
 -- Auto install packer
 local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
