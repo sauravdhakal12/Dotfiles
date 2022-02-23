@@ -1,0 +1,94 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.014  000.014: --- NVIM STARTING ---
+000.471  000.457: locale set
+000.839  000.367: inits 1
+000.856  000.017: window checked
+007.067  006.211: parsing arguments
+007.201  000.134: expanding arguments
+007.241  000.041: inits 2
+008.147  000.906: init highlight
+008.153  000.006: waiting for UI
+009.124  000.971: done waiting for UI
+009.150  000.026: init screen for UI
+009.188  000.037: init default mappings
+009.354  000.166: init default autocommands
+009.474  000.025  000.025: sourcing /usr/share/nvim/archlinux.vim
+009.483  000.069  000.045: sourcing /etc/xdg/nvim/sysinit.vim
+025.906  008.112  008.112: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/onedark.nvim/colors/onedark.lua
+074.140  064.624  056.513: sourcing /home/saurav/.config/nvim/init.lua
+074.170  000.122: sourcing vimrc file(s)
+078.213  000.011  000.011: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/LuaSnip/ftdetect/snippets.vim
+078.385  000.008  000.008: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/fusion.vim
+078.405  000.010  000.010: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/gdresource.vim
+078.422  000.009  000.009: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/gdscript.vim
+078.438  000.006  000.006: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/glimmer.vim
+078.453  000.007  000.007: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/glsl.vim
+078.471  000.008  000.008: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/gowork.vim
+078.492  000.013  000.013: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/graphql.vim
+078.510  000.010  000.010: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/hack.vim
+078.531  000.013  000.013: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/hcl.vim
+078.547  000.008  000.008: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/heex.vim
+078.565  000.008  000.008: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/hjson.vim
+078.582  000.009  000.009: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/json5.vim
+078.607  000.013  000.013: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/ledger.vim
+078.623  000.008  000.008: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/nix.vim
+078.639  000.007  000.007: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/prisma.vim
+078.657  000.008  000.008: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/pug.vim
+078.678  000.012  000.012: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/ql.vim
+078.702  000.014  000.014: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/query.vim
+078.726  000.014  000.014: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/surface.vim
+078.742  000.008  000.008: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/teal.vim
+078.758  000.007  000.007: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/tlaplus.vim
+078.776  000.009  000.009: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/ftdetect/yang.vim
+078.852  000.008  000.008: sourcing /usr/share/vim/vimfiles/ftdetect/PKGBUILD.vim
+078.987  004.736  004.507: sourcing /usr/share/nvim/runtime/filetype.vim
+079.066  000.020  000.020: sourcing /usr/share/nvim/runtime/ftplugin.vim
+079.137  000.017  000.017: sourcing /usr/share/nvim/runtime/indent.vim
+079.267  000.048  000.048: sourcing /usr/share/nvim/runtime/syntax/synload.vim
+079.363  000.203  000.155: sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+080.267  000.425  000.425: sourcing /usr/share/nvim/runtime/plugin/gzip.vim
+080.296  000.008  000.008: sourcing /usr/share/nvim/runtime/plugin/health.vim
+080.372  000.067  000.067: sourcing /usr/share/nvim/runtime/plugin/man.vim
+080.680  000.132  000.132: sourcing /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+080.740  000.359  000.226: sourcing /usr/share/nvim/runtime/plugin/matchit.vim
+080.846  000.096  000.096: sourcing /usr/share/nvim/runtime/plugin/matchparen.vim
+081.133  000.277  000.277: sourcing /usr/share/nvim/runtime/plugin/netrwPlugin.vim
+081.261  000.008  000.008: sourcing /home/saurav/.local/share/nvim/rplugin.vim
+081.267  000.116  000.107: sourcing /usr/share/nvim/runtime/plugin/rplugin.vim
+081.347  000.067  000.067: sourcing /usr/share/nvim/runtime/plugin/shada.vim
+081.378  000.015  000.015: sourcing /usr/share/nvim/runtime/plugin/spellfile.vim
+081.484  000.093  000.093: sourcing /usr/share/nvim/runtime/plugin/tarPlugin.vim
+081.556  000.056  000.056: sourcing /usr/share/nvim/runtime/plugin/tohtml.vim
+081.583  000.012  000.012: sourcing /usr/share/nvim/runtime/plugin/tutor.vim
+081.711  000.116  000.116: sourcing /usr/share/nvim/runtime/plugin/zipPlugin.vim
+082.173  000.397  000.397: sourcing /usr/share/vim/vimfiles/plugin/fzf.vim
+082.642  000.406  000.406: sourcing /home/saurav/.config/nvim/plugin/packer_compiled.lua
+082.819  001.163: loading rtp plugins
+083.155  000.158  000.158: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/LuaSnip/plugin/luasnip.vim
+084.316  000.975  000.975: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-cmp/plugin/cmp.lua
+084.432  000.059  000.059: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-lspconfig/plugin/lspconfig.vim
+085.124  000.620  000.620: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-treesitter/plugin/nvim-treesitter.vim
+085.236  000.028  000.028: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/nvim-web-devicons/plugin/nvim-web-devicons.vim
+085.367  000.025  000.025: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/plenary.nvim/plugin/plenary.vim
+085.532  000.099  000.099: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/telescope.nvim/plugin/telescope.vim
+085.689  000.084  000.084: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/vim-smoothie/plugin/smoothie.vim
+085.784  000.917: loading packages
+085.980  000.098  000.098: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp/after/plugin/cmp_nvim_lsp.lua
+086.230  000.208  000.208: sourcing /home/saurav/.local/share/nvim/site/pack/packer/start/cmp_luasnip/after/plugin/cmp_luasnip.lua
+086.244  000.154: loading after plugins
+086.255  000.011: inits 3
+087.345  001.090: reading ShaDa
+088.859  000.338  000.338: sourcing /usr/share/nvim/runtime/scripts.vim
+089.081  001.398: opening buffers
+089.170  000.089: BufEnter autocommands
+089.174  000.004: editing files in windows
+089.499  000.325: VimEnter autocommands
+089.502  000.004: UIEnter autocommands
+089.505  000.003: before starting main loop
+098.413  008.907: first screen update
+098.436  000.024: --- NVIM STARTED ---
