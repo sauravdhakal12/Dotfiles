@@ -26,8 +26,6 @@ end
 function vmap(shortcut, command)
   map("v", shortcut , command , default_opts)
 end
-
-
 -- Turn autocomplete on/off
 function auto_cmp(act)
   if act then
