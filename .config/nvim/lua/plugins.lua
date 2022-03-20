@@ -110,7 +110,7 @@ return packer.startup(function()
     end
   }
 
-  -- Fast comment
+ -- Fast comment
   use {
     "terrortylor/nvim-comment",
     config = function()
@@ -128,6 +128,13 @@ return packer.startup(function()
     end,
   }
 
+  use {
+    'akinsho/toggleterm.nvim',
+    config = function()
+      require("plugins.toggleterm_conf")
+    end
+  }
+ 
   -- Auto install packages
   if packer_bootstrap then
     require('packer').sync()
